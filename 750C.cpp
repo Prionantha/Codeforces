@@ -3,7 +3,7 @@
  * Problem: http://codeforces.com/contest/750/problem/C
  * Solution: Recode max and min possible rating and update with every new contest.
  * Note: The initial value for max and min is 2000000000 and -2000000000 to avoid overflow. But it's still 
- * 		 gonna happen (with a high probability). But the data tested is not strong enough so it still passes..
+ * 	gonna happen (with a high probability). But the data tested is not strong enough so it still passes..
  */
 
 #include<iostream>
