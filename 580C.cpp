@@ -1,3 +1,11 @@
+/* 2017/1/6
+ * Problem: http://codeforces.com/problemset/problem/580/C
+ * Solution: Use adjacency list to record all paths, then dfs to count cats along the way.
+ * Note: 
+ * 	1. mix up arrays starting from 0 and 1
+ * 	2. get confused on the logic: it should be "Nodes that all related paths are parent is a root node."
+ */
+
 #include<iostream>
 #include<vector>
 using namespace std;
