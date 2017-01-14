@@ -1,3 +1,7 @@
+/* 2017/1/13
+ * Problem: http://codeforces.com/problemset/problem/749/A
+ */
+
 #include<iostream>
 using namespace std;
 
