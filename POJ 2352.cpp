@@ -1,3 +1,11 @@
+/* 2017/1/15
+ * Problem: http://poj.org/problem?id=2352
+ * Solution: Tree array. 
+ * Note: 1.Originally I wrote tree[i] = getSum(s[i].x); level[tree[i]] ++; which changed the array value and resulted in an life-long debug.
+ *       How silly..
+ *	 2. Pay special attention to the x=0 case.
+ */
+
 #include<iostream>
 #include<algorithm>
 #include<cstdio>
@@ -14,14 +22,6 @@ struct star {
 };
 
 star s[MAXN];
-
-//bool kmp(star a, star b) {
-//	if (a.x != b.x) {
-//		return a.x < b.x;
-//	} else {
-//		return a.y < b.y;
-//	}
-//}
 
 long long lowbit(int x) {
 	return x & (-x);
