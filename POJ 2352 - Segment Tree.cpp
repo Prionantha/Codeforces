@@ -1,3 +1,9 @@
+/* 2017/1/23
+ * Problem: http://poj.org/problem?id=2352
+ * Solution: Obvious segment tree.
+ *           Another possible solution: BIT https://github.com/Prionantha/OJ/blob/master/POJ%202352%20-%20BIT.cpp
+ */
+
 #include<iostream>
 #include<algorithm>
 #include<cstdio>
