@@ -2,7 +2,10 @@
  * Problem: http://codeforces.com/problemset/problem/550/C
  * Solution: There are two ways of doing it. The first one is using the math fact that the last three digits of all numbers divisble 
              by eight must be divisible by eight. For one and two digits, pre-handle and print the table. The second is using dp but 
-             I didn't get it through - - maybe add that solution later.
+             I didn't get it through - - maybe add that solution later
+ * Update: @philippica offered a brand new solution: list out all the factors of eight which are less then 1000, and then do matching
+ 	   between them and the string. The worst case scenario would be (1000 / 8) * 100, which is significantly faster than my 
+	   approach.
  */
 
 #include<iostream>
