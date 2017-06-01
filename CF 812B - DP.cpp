@@ -5,6 +5,9 @@
          1. The top floor doesn't need to be reached if there's no light there.
          2. There's one special case when all the lights are turned off.
          3. The case of only one floor has light and is also the bottom floor needs special attention.
+ * Others: It's my first time doing a dp in a real contest! And what's more, I got a general idea how to 
+  	   truly write it! (Though didn't pass because of those special cases above, which I didn't take into 
+	   consideration.) Anyway, it feels good.
  */
 
 #include<iostream>
